@@ -49,7 +49,7 @@ class Node:
 
 
 lines = []
-for path in glob("data/*.txt"):
+for path in glob("data_live/*.txt"):
     with open(path, "r") as f:
         lines.extend(f.readlines())
 
